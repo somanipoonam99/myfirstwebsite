@@ -1,0 +1,180 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+/* main img */
+.main-img
+{
+   width:100%;
+    height:200px;
+}
+/*navigation */
+.topmenu
+{
+    background-color: rgb(26, 39, 39);
+  width: 100%;
+    height: 30px;
+    
+}
+strong
+{
+    color:rgb(196, 33, 33);
+}
+.topmenu a{
+    color:white;
+    text-decoration:none;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.topmenu a:hover{
+    background-color:green;
+}
+/* who we are content*/
+.content
+{
+   /* padding: 30px;*/
+    margin-left: 100px;
+  
+}
+.content h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:grey;
+}
+.content p{
+  
+    font-size: 18px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+/* service category */
+.webdevelopment  p{
+   
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.service 
+{
+    /*padding: 30px;*/
+    margin-left: 100px;
+    text-align: center;
+   
+}
+
+.service h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-align: center;
+    background-color: rgb(35, 39, 48);
+  
+  
+}
+/* to display in horizantal next to other  used in sub <div> elements */
+.service1 >*
+{
+    
+    display: inline-block;
+}
+.webdevelopment
+{
+   
+    padding:20px;
+    margin-left: 80px;
+} 
+.webdevelopment h2{
+   
+    
+    color:indigo;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    .image1{
+    width:300px;
+    height:150px;
+    margin-top: 10px;
+   
+   
+   
+   
+    
+}
+/* bottom part*/
+.form{
+    background-color:rgb(35, 39, 48);
+   /* padding:40px;*/
+ 
+    
+}
+.form >*
+{
+  
+   margin-left: 50px;
+    display:inline-block;
+    font-size: 18px;
+    color:white;
+   
+}
+.bold
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+ul
+{
+    list-style-type: none;
+    line-height: 180%;
+
+}
+.icon
+{
+    width:40px;
+    height:40px;
+  margin-top: 20px  ;
+  margin-left: 15px;
+   
+}
+.icon1
+{
+    display: flex;
+    justify-content: center;
+}
+.footer {
+     display:inline;
+     margin-right: 50px;
+}
+.footer  p{
+    display:inline;
+      margin-left: 50px;
+      margin-right: 90px;
+  
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* view more button*/ 
+button{
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    background-color: rgb(75, 64, 83);
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    text-align: center;
+    align-items: center;
+    
+  
+}
+.button
+{
+    text-align: center;
+}
