@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- for responsive navigation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.libs/font=awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-   
+   <nav class="navbar">
+
+  
         <div class="topmenu">
-       <a href=" " > Home</a>
-       <a href=" " >  Services</a>
-       <a href=" " > Contact Us</a>
-       <a href=" " > About Us</a>
-       <a href=" " > More</a>
+       <a href="#home " > Home</a>
+       <a href=" #services" >  Services</a>
+       <a href=" #contactus" > Contact Us</a>
+       <a href=" #aboutus" > About Us</a>
+     
       
       
         </div>
-  
+    </nav>
     <div>
 
-        <img class="main-img" src="main.jpg">
+        <img class="main-img" src="images/main.jpg" id="home">
     </div>
     <div class="content">
         <h1> what we Do</h1>
@@ -40,21 +42,21 @@
         
         <!-- service part with sub div elements -->
     </div>
-    <div class="service">
+    <div class="service" id="services">
         <h1> Our Services </h1>
     </div>
     <div class="service1">
         <div class="webdevelopment">
 
             <h2> Web Design & Devlopment </h2>
-            <img class="image1" src="image1.jpg">
+            <img class="image1" src="images/image1.jpg">
           <p> We design and devlope website that  <br>
             effectively communicate your message
             <br> and elevate your braand.</p>
         </div>
         <div class="webdevelopment">
             <h2> Website Hosting &<br> Maintainance </h2>
-            <img class="image1" src="image2.jpg">
+            <img class="image1" src="images/image2.jpg">
             <p> Save time money and resources by working with <br>
              us. we can  securely host and maintain an evalue   <br>
             while you focus on yur oberall busines golas</p>
@@ -62,7 +64,7 @@
         </div>
         <div class="webdevelopment">
             <h2> Digital startegy </h2>
-            <img class="image1" src="image3.jpg">
+            <img class="image1" src="images/image3.jpg">
             <p> Save time money and resources by working with <br>
                 us. we can  securely host and maintain an evalue   <br>
                while you focus on yur oberall busines golas</p>
@@ -70,7 +72,7 @@
         </div>
         <div class="webdevelopment">
             <h2> IntegratedMarketing </h2>
-            <img class="image1" src="image4.jpg">
+            <img class="image1" src="images/image4.jpg">
             <p> Save time money and resources by working with <br>
                 us. we can  securely host and maintain an evalue   <br>
                while you focus on yur oberall busines golas</p>
@@ -78,7 +80,7 @@
         </div>
         <div class="webdevelopment">
             <h2> Mobile App </h2>
-            <img class="image1" src="image5.png">
+            <img class="image1" src="images/image5.png">
             <p> Save time money and resources by working with <br>
                 us. we can  securely host and maintain an evalue   <br>
                while you focus on yur oberall busines golas</p>
@@ -86,15 +88,33 @@
         </div>
         <div class="webdevelopment">
             <h2> video production</h2>
-            <img class="image1" src="image6.png">
+            <img class="image1" src="images/image6.png">
             <p> Save time money and resources by working with <br>
                 us. we can  securely host and maintain an evalue   <br>
                while you focus on yur oberall busines golas</p>
 
         </div>
+
+        <!-- contact form-->
+        <div class="contactus" id="contactus"> 
+            <p class="para1"> Want to explore  your Business ? </p>
+        
+            <div class="form2">
+                <p class="para2"> Contact Us</p>
+        <form  >
+            <input type="text" name="name" placeholder=" Enter Your Name" id="name">
+            <input type="text"  placeholder="Enter Your Number">
+            <input type="email"placeholder="Enter Your Mail">
+            <input  class="textarea" type="text name="text"  placeholder="Ellaborate Your Concern"> </textarea>
+            <button class="submitbtn"> Submit  </button>
+        </form>
+        
+    </div>
+    </div>
+
         <!-- botton part -->
     </div>
-    <div class="form">
+    <div class="form" id="aboutus">
         <div>
             <ul>
                 <li class="bold"> who we are </li>
@@ -138,9 +158,9 @@
        <!-- socail icons -->
         <div class="icon1">
            
-            <img  class="icon" src="facebook.png">
-            <img  class="icon" src="twitter.png">
-            <img class="icon"  src="linkedin-icon.png">
+            <img  class="icon" src="images/facebook.png">
+            <img  class="icon" src="images/twitter.png">
+            <img class="icon"  src="images/linkedin-icon.png">
             
         </div>
        
@@ -153,7 +173,7 @@
 <div class="footer">
     <hr>
     <p> privacy policy </p>
-    <p> Terms and uses </p>
+   
     <p> &copy; 2021 All right Reserved</p>
     <p> Design By: Poonam Somani </p>
 </div>
