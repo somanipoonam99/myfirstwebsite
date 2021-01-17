@@ -10,11 +10,22 @@
     height:200px;
 }
 /*navigation */
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
 .topmenu
 {
+   width:100%;
     background-color: rgb(26, 39, 39);
-  width: 100%;
-    height: 30px;
+  display: flex;
+  
+   
     
 }
 strong
@@ -26,7 +37,8 @@ strong
     text-decoration:none;
     margin-left: 30px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 22px;
+    padding: 20px 24px;
 }
 
 .topmenu a:hover{
@@ -35,9 +47,9 @@ strong
 /* who we are content*/
 .content
 {
-   /* padding: 30px;*/
-    margin-left: 100px;
-  
+    padding: 30px 20px;
+   /* margin-left: 100px;
+*/  
 }
 .content h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -177,4 +189,176 @@ button{
 .button
 {
     text-align: center;
+}
+/* contact us*/
+.contactus
+{
+ background-color:whitesmoke;
+ width:100%;
+ 
+ 
+ margin: auto;
+}
+.para1
+{
+ text-align: center;
+ font-size: 24px;
+ color: black;
+ font-weight: bold;
+ padding: 12px 12px ;
+}
+.para2
+{
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+    padding: 20px 20px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.form2
+{
+    border-radius: 20px;
+    border:2px solid black;
+ margin: auto;
+ opacity: 1;
+ max-width: 344px;
+ padding: 18px  30px ;
+ margin-bottom: 4%;
+ margin-top: 2%;
+}
+.form2 input {
+    width: 100%;
+    padding: 5px;
+    font-size: 19px;
+    background-color:white;
+   margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+
+.submitbtn
+{
+    text-align: center;
+   margin-left: 100px;
+   padding: 15px 20px ;
+    
+}
+
+
+@media only screen and (max-width:600px){
+
+    .topmenu a{
+        color:white;
+        text-decoration:none;
+        margin-left: 20px;
+        margin-right: 5px;
+        font-size: 20px;
+        padding: 18px 22px;
+    }
+    .content
+{
+   /* padding: 30px;*/
+    margin-left: 50px;
+    margin-right:-20px;
+  
+}
+}
+@media only screen and (max-width:480px){
+
+    .topmenu a{
+        color:white;
+        text-decoration:none;
+        margin-left: 20px;
+        margin-right: 5px;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .content
+{
+   /* padding: 30px;*/
+    margin-left: 50px;
+    margin-right:-20px;
+  
+}
+}
+@media only screen and (max-width:400px){
+
+    .topmenu a{
+        color:white;
+        text-decoration:none;
+        margin-left: 20px;
+        margin-right: 5px;
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+    .content
+{
+   /* padding: 30px;*/
+    margin-left: 40px;
+    margin-right:-10px;
+  
+}
+.webdevelopment
+{
+   
+    padding:15px;
+    margin-left: 50px;
+} 
+}
+@media only screen and (max-width:370px){
+    .webdevelopment
+{
+   
+    padding:10px;
+    margin-left: 40px;
+} 
+.topmenu a{
+    color:white;
+    text-decoration:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    padding: 12px 15px;
+}
+.content
+{
+   /* padding: 30px;*/
+    margin-left: 30px;
+    
+  
+}
+.webdevelopment
+{
+   
+    padding:15px;
+    margin-left: 40px;
+} 
+.service 
+{
+    /*padding: 30px;*/
+    margin-left: 80px;
+    text-align: center;
+   
+}
+/*.form >*
+{
+  
+   margin-left: 40px;
+   
+    display:inline-block;
+    font-size: 18px;
+    color:white;
+    position: sticky;
+   
+}*/
+}
+@media only screen and (max-width:330px){
+
+    .webdevelopment
+{
+   
+    padding:12px;
+    margin-left: 0px;
+} 
 }
